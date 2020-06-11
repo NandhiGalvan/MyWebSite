@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "label": "Run in chrome",
+    "command": "open",    
+    "linux": {
+        "command": "/Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome"
+    },
+    "args": [
+        "-a",
+        "Google Chrome",
+        "index.html"
+    ],
+    "problemMatchers": []
+}

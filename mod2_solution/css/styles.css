@@ -1,0 +1,71 @@
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#section_chicken {
+    background-color: #655ba8;
+}
+
+#section_beef {
+    background-color: #5f9ea0;
+}
+
+#section_sushi {
+    background-color: #bdb76b;
+}
+
+.sec_title {
+    border: #000000 solid 1px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 1% 10% 1% 10%;
+    font-weight: bolder;
+}
+
+.section {
+    background: #808080;
+    border: #000000 solid 1px;
+    padding: 5% 1% 1% 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    position: relative;
+    height: 200px;
+    float: left;
+}
+  /* Simple Responsive Framework. */
+  
+  /********** Desktop only **********/
+  @media (min-width: 992px) {
+    .section_lg {
+        width: 32%;
+    }
+  }
+  
+  /********** Tablet only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .section_mid1 {
+        width: 48.5%;
+    }
+    .section_mid2 {
+        width: 98%;
+    }
+  }
+
+  /********** Mobile only **********/
+  @media (max-width: 767px) {
+    .section_sm {
+        width: 98%;
+    }
+}
