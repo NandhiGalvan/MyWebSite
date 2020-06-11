@@ -28,16 +28,17 @@
 .sec_title {
     border: #000000 solid 1px;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: -1px; /*Taking into account the 1px border*/
+    top: -1px; /*Taking into account the 1px border*/
     padding: 1% 10% 1% 10%;
+    text-align: center;
     font-weight: bolder;
 }
 
 .section {
     background: #808080;
     border: #000000 solid 1px;
-    padding: 5% 1% 1% 1%;
+    padding: 6% 1% 1% 1%;
     margin-left: 1%;
     margin-bottom: 1%;
     position: relative;
